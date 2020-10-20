@@ -1,0 +1,33 @@
+ <html>
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>This is Jblog</title>
+   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+ </head>
+ <body>
+      <h1>This is Jblog Static TItle</h1>
+      <h2>This is the title I created</h2>
+<img src="/images/uploads/5165.jpg" alt="/images/uploads/5165.jpg"></img>
+<p><p>Heres the cms which im handling without touching any code this is gonna  automatically push to my repo which will trigger a deploy and the site will be updated in seconds</p>
+</p>
+     
+
+
+     <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
+ </body>
+ </html>
+
+
+
+
