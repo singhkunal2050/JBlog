@@ -1,0 +1,76 @@
+
+/* navbar */
+
+.navbar{
+  background: #240e24 !important;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+
+@media(min-width:1010px){
+  #navbarNav{
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+.nav-item{
+  padding: 5px 15px;
+  background: #1306258c;
+  margin: 5px 10px;
+  border-radius: 16px;
+  text-align: center;
+}
+
+
+
+
+.content{
+  min-height: 100vh;
+  background: darkslateblue;
+}
+
+.card{
+  margin: 20px auto !important;
+  background: #ffe2ff;
+}
+
+footer .jumbotron{
+  background: #240e24 !important;
+}
+
+.links{
+  display: flex;
+  background: #532553c9;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 20vw;
+  border-radius: 16px;
+  box-shadow: 1px 4px 0 #f361f3;
+  margin: 0 auto;
+}
+
+
+.links .link{
+  margin: 10px;
+  color: #ffe2ff;
+}
+
+@media(max-width:768px){
+  
+  #navbarNav{
+    
+  }
+  
+  .navbar-collapse{
+    margin-left: 0 !important
+  }
+  
+  .links{
+    width: 50vw;
+  }
+
+}
