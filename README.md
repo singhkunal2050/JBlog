@@ -6,3 +6,5 @@
 
 - Eleventy 
 - Netlify CMS 
+
+## STEPS Required for Creating 
