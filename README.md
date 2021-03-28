@@ -8,7 +8,9 @@
 - Netlify CMS 
 
 
+
 # Todos
 
 - add about
 - add home
+
