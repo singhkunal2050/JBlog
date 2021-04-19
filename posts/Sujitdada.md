@@ -1,3 +1,11 @@
+---
+layout: layouts/post.njk
+title: Sujit dada
+description: The first post on the Eleventy and Netlify CMS blog
+date: 2021-04-19
+featuredImage: /images/uploads/image1.png
+---
+
 # Demo Title  
 
 - dmeo 
